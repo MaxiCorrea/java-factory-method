@@ -10,8 +10,8 @@ import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
 import domain.Notification;
-import domain.NotificationFactory;
-import domain.NotificationType;
+import infrastructure.NotificationFactory;
+import infrastructure.NotificationType;
 
 class SendNotificationUseCaseTest {
 

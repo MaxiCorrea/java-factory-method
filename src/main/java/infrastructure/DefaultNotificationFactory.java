@@ -1,7 +1,9 @@
-package domain;
+package infrastructure;
 
 import java.util.EnumMap;
 import java.util.function.Supplier;
+
+import domain.Notification;
 
 public class DefaultNotificationFactory implements NotificationFactory {
 

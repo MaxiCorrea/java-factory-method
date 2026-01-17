@@ -1,8 +1,8 @@
 package application;
 
 import domain.Notification;
-import domain.NotificationFactory;
-import domain.NotificationType;
+import infrastructure.NotificationFactory;
+import infrastructure.NotificationType;
 
 public class SendNotificationUseCase {
 

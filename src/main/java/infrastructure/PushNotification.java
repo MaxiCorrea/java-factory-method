@@ -1,4 +1,6 @@
-package domain;
+package infrastructure;
+
+import domain.Notification;
 
 public class PushNotification implements Notification {
 
