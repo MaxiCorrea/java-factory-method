@@ -5,9 +5,9 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
+import application.port.NotificationType;
 import infrastructure.DefaultNotificationFactory;
 import infrastructure.EmailNotification;
-import infrastructure.NotificationType;
 import infrastructure.PushNotification;
 
 class DefaultNotificationFactoryTest {

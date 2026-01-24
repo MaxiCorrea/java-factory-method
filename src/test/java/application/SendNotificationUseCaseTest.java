@@ -9,9 +9,10 @@ import org.junit.jupiter.api.Test;
 import org.mockito.Mock;
 import org.mockito.MockitoAnnotations;
 
+import application.port.NotificationFactory;
+import application.port.NotificationType;
+import application.usecase.SendNotificationUseCase;
 import domain.Notification;
-import infrastructure.NotificationFactory;
-import infrastructure.NotificationType;
 
 class SendNotificationUseCaseTest {
 

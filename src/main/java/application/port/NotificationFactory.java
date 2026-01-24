@@ -1,4 +1,4 @@
-package infrastructure;
+package application.port;
 
 import domain.Notification;
 
